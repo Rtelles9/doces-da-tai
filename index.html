@@ -24,11 +24,6 @@
       margin-bottom: 10px;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-
     .btn {
       display: inline-block;
       padding: 12px 20px;
@@ -42,7 +37,7 @@
 
     section {
       padding: 30px 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
 
@@ -51,6 +46,7 @@
       margin-bottom: 20px;
     }
 
+    /* GALERIA */
     .galeria {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -60,12 +56,14 @@
     .galeria img {
       width: 100%;
       border-radius: 10px;
+      height: 150px;
       object-fit: cover;
     }
 
+    /* SABORES */
     .sabores {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 10px;
       text-align: center;
     }
@@ -107,9 +105,7 @@
 <body>
 
 <header>
-  <!-- LOGO -->
   <img src="logo.png" class="logo">
-
   <h1>Doces da Tai 🍬</h1>
   <p>Doces finos para deixar seu evento inesquecível</p>
 
@@ -121,12 +117,19 @@
 <section>
   <h2>Nossos Doces</h2>
 
-  <!-- FOTOS -->
   <div class="galeria">
     <img src="doce1.jpg">
     <img src="doce2.jpg">
     <img src="doce3.jpg">
     <img src="doce4.jpg">
+    <img src="doce5.jpg">
+    <img src="doce6.jpg">
+    <img src="doce7.jpg">
+    <img src="doce8.jpg">
+    <img src="doce9.jpg">
+    <img src="doce10.jpg">
+    <img src="doce11.jpg">
+    <img src="doce12.jpg">
   </div>
 </section>
 
@@ -134,11 +137,20 @@
   <h2>Sabores disponíveis</h2>
 
   <div class="sabores">
+    <div class="box">Brigadeiro</div>
+    <div class="box">Beijinho</div>
+    <div class="box">Paçoca</div>
+    <div class="box">Casadinho</div>
+    <div class="box">Nesquik</div>
+    <div class="box">Ninho</div>
+    <div class="box">Maracujá</div>
+    <div class="box">Limão</div>
+    <div class="box">Nutella</div>
+    <div class="box">Churros</div>
+    <div class="box">Charge</div>
+    <div class="box">Café</div>
     <div class="box">Sucrilhos</div>
     <div class="box">Ferrero Rocher</div>
-    <div class="box">Ninho com Nutella</div>
-    <div class="box">Ouriço de coco queimado</div>
-    <div class="box">Brigadeiro Gourmet</div>
   </div>
 </section>
 
@@ -153,6 +165,14 @@
 </section>
 
 <section class="info">
+  <h2>Importante</h2>
+  <p>
+    Seu pedido será confirmado mediante 50% de pagamento antecipado.<br>
+    Em caso de desistência, o valor não será devolvido.
+  </p>
+</section>
+
+<section class="info">
   <h2>Quantidade recomendada</h2>
   <p>
     <strong>Eventos</strong><br>
@@ -161,9 +181,7 @@
 
     <strong>Casamentos</strong><br>
     Adultos: 6 a 7 doces por pessoa<br>
-    Crianças: 4 doces por pessoa<br><br>
-
-    Lembre-se: essas quantidades são uma média, não uma regra.
+    Crianças: 4 doces por pessoa
   </p>
 </section>
 
@@ -177,4 +195,3 @@
 
 </body>
 </html>
-
