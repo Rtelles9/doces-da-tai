@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doces da Tai</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f5;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+      background: #ffd6cc;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .sabores {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      text-align: center;
+    }
+
+    .box {
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .info {
+      background: #ffece6;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ffd6cc;
+    }
+
+    .whatsapp-fixo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <!-- LOGO -->
+  <img src="logo.png" class="logo">
+
+  <h1>Doces da Tai 🍬</h1>
+  <p>Doces finos para deixar seu evento inesquecível</p>
+
+  <a class="btn" href="https://wa.me/55SEUNUMERO?text=Olá!%20Quero%20fazer%20um%20pedido">
+    Fazer pedido no WhatsApp
+  </a>
+</header>
+
+<section>
+  <h2>Nossos Doces</h2>
+
+  <!-- FOTOS -->
+  <div class="galeria">
+    <img src="doce1.jpg">
+    <img src="doce2.jpg">
+    <img src="doce3.jpg">
+    <img src="doce4.jpg">
+  </div>
+</section>
+
+<section>
+  <h2>Sabores disponíveis</h2>
+
+  <div class="sabores">
+    <div class="box">Sucrilhos</div>
+    <div class="box">Ferrero Rocher</div>
+    <div class="box">Ninho com Nutella</div>
+    <div class="box">Ouriço de coco queimado</div>
+    <div class="box">Brigadeiro Gourmet</div>
+  </div>
+</section>
+
+<section class="info">
+  <h2>Como funciona o pedido</h2>
+  <p>
+    ✔ Escolha os sabores<br>
+    ✔ Defina a quantidade<br>
+    ✔ Escolha a data<br>
+    ✔ Confirme pelo WhatsApp
+  </p>
+</section>
+
+<section class="info">
+  <h2>Quantidade recomendada</h2>
+  <p>
+    <strong>Eventos</strong><br>
+    Adultos: 5 a 6 doces por pessoa<br>
+    Crianças: 4 a 5 doces por pessoa<br><br>
+
+    <strong>Casamentos</strong><br>
+    Adultos: 6 a 7 doces por pessoa<br>
+    Crianças: 4 doces por pessoa<br><br>
+
+    Lembre-se: essas quantidades são uma média, não uma regra.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Doces da Tai</p>
+</footer>
+
+<a class="whatsapp-fixo" href="https://wa.me/55SEUNUMERO?text=Olá!%20Quero%20fazer%20um%20pedido">
+  📲 Pedir
+</a>
+
+</body>
+</html>
+
