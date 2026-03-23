@@ -13,15 +13,48 @@
         color: #333;
       }
 
-      header {
-        text-align: center;
-        padding: 30px 20px;
+      .topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         background: #ffd6cc;
+        padding: 20px;
+        flex-wrap: wrap;
       }
 
-      .logo {
-        width: 120px;
-        margin-bottom: 10px;
+      .logo-grande {
+        width: 180px;
+      }
+
+      .lado-direito {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .instagram {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: bold;
+      }
+
+      .instagram a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      .instagram a:hover {
+        color: #e1306c;
+      }
+
+      .insta-icon {
+        width: 25px;
+      }
+
+      .docinho {
+        width: 70px;
+        border-radius: 10px;
       }
 
       .btn {
@@ -108,14 +141,20 @@
   </head>
 
   <body>
-    <header>
-      <img src="img/logo.png" class="logo" />
-      <h1>Doces da Tai 🍬</h1>
-      <p>Doces finos para deixar seu evento inesquecível</p>
+    <header class="topo">
+      <div>
+        <img src="img/logo.png" class="logo-grande" />
+      </div>
 
-      <a class="btn" href="https://wa.me/5547992822277">
-        Fazer pedido no WhatsApp
-      </a>
+      <div class="instagram">
+  <img src="img/instagram.png" class="insta-icon" />
+  <a href="https://instagram.com/docessdatai" target="_blank">
+    @docessdatai
+  </a>
+</div>
+
+        <img src="img/docinho-topo.jpeg" class="docinho" />
+      </div>
     </header>
 
     <section>
